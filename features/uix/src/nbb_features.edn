@@ -1,0 +1,7 @@
+[{:name nbb/uix
+  :namespaces [uix.core uix.dom]
+  :js "./nbb_uix.js"
+  :shadow-config
+  {:modules
+   {:nbb_uix {:init-fn nbb.impl.uix/init
+              :depends-on #{:nbb_core}}}}}]

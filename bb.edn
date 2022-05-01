@@ -11,7 +11,8 @@
   #_{:local/root "../nbb"}
   datascript/deps {:local/root "features/datascript"}
   datascript-transit/deps {:local/root "features/datascript-transit"}
-  linked/deps {:local/root "features/linked"}}
+  linked/deps {:local/root "features/linked"}
+  uix/deps {:local/root "features/uix"}}
  :tasks
  {:requires ([babashka.fs :as fs]
              [nbb.build :as build])

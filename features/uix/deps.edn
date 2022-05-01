@@ -1,0 +1,9 @@
+{:deps
+ {uix.core/uix.core
+  {:git/url "https://github.com/roman01la/uix.git"
+   :git/sha "49fda18229de5d3c8bd5fdd70abb6272819ac7d3"
+   :deps/root "core"}
+  uix.dom/uix.dom
+  {:git/url "https://github.com/roman01la/uix.git"
+   :git/sha "49fda18229de5d3c8bd5fdd70abb6272819ac7d3"
+   :deps/root "dom"}}}
