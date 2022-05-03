@@ -13,8 +13,13 @@
    'callback         (copy-var uix/callback core-ns)
    'ref              (copy-var uix/ref core-ns)
    'effect!          (copy-var uix/effect! core-ns)
-   'with-effect!     (copy-var uix/with-effect! core-ns)
+   'layout-effect!   (copy-var uix/layout-effect! core-ns)
+   'memo             (copy-var uix/memo core-ns)
+   'memoize          (copy-var uix/memoize core-ns)
+   'context          (copy-var uix/context core-ns)
+   'create-context   (copy-var uix/create-context core-ns)
    'as-react         (copy-var uix/as-react core-ns)
+   'as-element       (copy-var uix/as-element core-ns)
    'add-transform-fn (copy-var uix/add-transform-fn core-ns)})
 
 (def dom-namespace
