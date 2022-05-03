@@ -4,9 +4,9 @@
   cljsjs/react-dom-server {:mvn/version "17.0.2-0"}
   uix.core/uix.core
   {:git/url "https://github.com/huygn/uix"
-   :git/sha "13c84ecbee080fc0162dbcdb28c7f927d8491603"
+   :git/sha "3224608e4b9da17f171433871dcded1cb67abca3"
    :deps/root "core"}
   uix.dom/uix.dom
   {:git/url "https://github.com/huygn/uix"
-   :git/sha "13c84ecbee080fc0162dbcdb28c7f927d8491603"
+   :git/sha "3224608e4b9da17f171433871dcded1cb67abca3"
    :deps/root "dom"}}}
