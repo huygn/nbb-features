@@ -5,8 +5,8 @@
             [nbb.core :as nbb]
             [sci.core :as sci :refer [copy-var]]))
 
-(def core-ns (sci/create-ns 'uix.core nil))
-(def dom-ns  (sci/create-ns 'uix.dom nil))
+(def core-ns (sci/create-ns 'uix.core.alpha nil))
+(def dom-ns  (sci/create-ns 'uix.dom.alpha nil))
 
 (def core-namespace
   {'state            (copy-var uix/state core-ns)
@@ -30,5 +30,5 @@
 (defn init []
   (nbb/register-plugin!
    ::uix
-   {:namespaces {'uix.core core-namespace
-                 'uix.dom  dom-namespace}}))
+   {:namespaces {'uix.core.alpha core-namespace
+                 'uix.dom.alpha  dom-namespace}}))

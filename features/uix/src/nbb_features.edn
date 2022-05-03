@@ -1,5 +1,5 @@
 [{:name nbb/uix
-  :namespaces [uix.core uix.dom]
+  :namespaces [uix.core.alpha uix.dom.alpha]
   :js "./nbb_uix.js"
   :shadow-config
   {:modules
